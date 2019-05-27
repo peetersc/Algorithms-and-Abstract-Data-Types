@@ -1,0 +1,36 @@
+Programming Assignment 3:
+
+//Author: Cameron Peeters
+//Cruz ID: 1675143
+//Professor: Patrick Tantalo
+//Class: CMPS101 - Algorithms and Abstract Data Types 
+//Project: Programming Assignment 3 
+//Date: 4/29/2019
+
+Abstract: 
+	* The Matrix ADT is a calculator for performing matrix operations that 
+	* exploits the (expected) sparseness of it’s matrix operands that is
+	* capable of performing fast matrix operations, even on very large  
+	* matrices, provided they are sparse.
+
+Files:
+	   Sparse.java: 
+		- Is the file that takes an in and out file to utilize the Matrix ADT
+
+           Matrix.java:
+		- Contains the Matrix ADT to store the NNZ elements of a sparse nxn matrix
+
+           List.java:
+		- Is used to hold a list of objects used as entries in the Matrix ADT
+
+           MatrixTest.java:
+		- Testing and debugging of the Matrix ADT 
+
+           ListTest.java:
+		- Testing and debugging of the List ADT
+
+           Makefile:
+		- Compiles, cleans, and makes executable files
+
+           README:
+		- Contains all the descriptions of all files in pa3
